@@ -1,0 +1,41 @@
+#titulo{
+    margin-top: 40px;
+    color: #000;
+}
+#container_photo{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container_text{
+    /* display: inline-flex; */
+    width: 30vw;
+    height: 80vh;
+    /* align-items: center;
+    justify-content: center; */
+}
+#photo{
+    background-image: url('./Matheus.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    border-radius: 15px;
+}
+.container_sobre{
+    display: flex;
+    width: 100vw;
+    height: 85vh fixed;
+    margin-top: 15px;
+}
+.p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, p, h2{
+    color: #000;
+}
