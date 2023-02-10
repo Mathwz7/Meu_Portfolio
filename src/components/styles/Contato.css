@@ -36,6 +36,7 @@ FaLinkedin{
 }
 .icons{
     font-size: 30px;
+    color: inherit;
 }
 #form{
     display: flex;
@@ -67,4 +68,7 @@ FaLinkedin{
     background-color: blue;
     transition: 2s;
     color: #fff;
+}
+Link{
+    color: black;
 }

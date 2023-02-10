@@ -36,6 +36,12 @@
     margin-bottom: 10px;
 }
 
-h1, p, h2{
-    color: #000;
+#projeto1{
+    background-image: url('./site1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height:400px;
+    text-align: center;
 }
