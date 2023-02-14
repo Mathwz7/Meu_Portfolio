@@ -5,6 +5,7 @@
     width: 100vw;
     height: 85vh;
     display: flex;
+    align-items: center;
 }
 #container_redes{
     width: 40vw;
@@ -36,7 +37,7 @@ FaLinkedin{
 }
 .icons{
     font-size: 30px;
-    color: inherit;
+    color: black;
 }
 #form{
     display: flex;
@@ -48,15 +49,16 @@ FaLinkedin{
 }
 .input_text{
     margin-bottom: 15px;
-    padding: 10px;
-    width: 400px;
+    padding: 1vw;
+    width: 40vw;
     text-align: center;
     border-radius: 5px;
 }
 #input_mensagem{
-    padding: 25px;
+    padding: 3vw;
     text-align: center;
     margin-bottom: 20px;
+
 }
 #btn{
     padding: 10px;
@@ -71,4 +73,23 @@ FaLinkedin{
 }
 Link{
     color: black;
+}
+
+@media (max-width:600px){
+    .main_contato{
+        flex-direction: column;
+    }
+    #container_form{
+        width: 100vw;
+    }
+    #form{
+        align-items: center;
+    }
+    #input_mensagem{
+        width: 35vw;
+        padding: 4vw;
+    }
+    #container_redes{
+        width: 100vw;
+    }
 }

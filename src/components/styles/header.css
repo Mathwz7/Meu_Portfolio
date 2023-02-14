@@ -14,9 +14,16 @@
 .list{
     display: inline-flex;
 }
+#spanMenu{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
 .text{
     padding-top: 100%;
     padding-bottom: 100%;
+
     font-size: 20px;
     color: #fff;
 }
@@ -28,4 +35,13 @@
 @keyframes mymove {
     from {color: rgba(255, 255, 255, 0.215);}
     to {color: rgb(255, 255, 255);}
-  }
+}
+@media (max-width: 700px){
+    .text{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .content{
+        justify-content: center;
+    }
+}

@@ -10,11 +10,8 @@
     justify-content: center;
 }
 #container_text{
-    /* display: inline-flex; */
-    width: 30vw;
+    width: 50vw;
     height: 80vh;
-    /* align-items: center;
-    justify-content: center; */
 }
 #photo{
     background-image: url('./Matheus.jpg');
@@ -36,12 +33,30 @@
     margin-bottom: 10px;
 }
 
-#projeto1{
-    background-image: url('./site1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height:400px;
-    text-align: center;
+@media(max-width:500px){
+    .container_sobre{
+        flex-direction: column;
+    }
+    #photo{
+        width: 100%;
+        height: 100%;   
+    }
+    #container_photo{
+        margin-left: 10vw;
+        width: 80vw;
+        height: 50vh;
+        background-position: center;
+
+    }
+    #container_text{
+        margin-left: 10vw;
+        width: 80vw;
+        height: 40vh;
+        align-items: center;
+        text-align: center;
+    }
+    .p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

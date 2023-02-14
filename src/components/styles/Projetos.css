@@ -8,10 +8,35 @@
 .container_projetos{
     margin: 15px;
     background-color: rgba(0, 0, 0, 0.612);
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 60vh;
     border-radius: 5%;
     border: 2px solid rgb(148, 142, 142);
     box-shadow: 7px 10px rgb(63, 60, 60);
 
+}
+#projeto1{
+    background-image: url('./site1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+    height:60vh;
+    text-align: center;
+}
+@media(max-width:600px){
+    .main{
+        flex-direction: column;
+        height: auto;
+    }
+    .container_projetos{
+        min-width: 300px;
+        min-height: 300px;
+        width: 300px;
+        height: 300px;
+    }
+    #projeto1{
+        width: 300px;
+        height: 300px;
+    }
 }
